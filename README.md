@@ -12,9 +12,9 @@
   </p>
 </p>
 
-```text
+<p>
 SIMAK SCB dirancang untuk bisa mengolah semua informasi seputar akademik asrama siswa yang ada secara terintegrasi sehingga data yang tersedia selalu terbarukan secara *realtime*. Dengan adanya SIMAK SCB ini harapannya bisa mempermudah pihak sekolah maupun administrator dalam mengolah data dan menyimpan semua data yang ada.
-```
+</p>
 
 ## Fitur Secara Umum
 ### Biodata
@@ -106,7 +106,7 @@ Contoh: kelas mobil menyediakan antarmuka fungsi untuk menjalankan mobil tersebu
 - Method name overloading.
 
 ## Tipe Design Pengembangan
-Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pattern MVC (Model View Controller) yang dimana sistem pengembangan aplikasi tersebut akan dipecah menjadi tiga bagian, yaitu model (database), view (tampilan/ui) dan yang terakhir controller (interaksi model dan view). Sarana yang digunakan dalam design pattern tersebut adalah framework **Laravel**. 
+<p> Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pattern MVC (Model View Controller) yang dimana sistem pengembangan aplikasi tersebut akan dipecah menjadi tiga bagian, yaitu model (database), view (tampilan/ui) dan yang terakhir controller (interaksi model dan view). Sarana yang digunakan dalam design pattern tersebut adalah framework **Laravel**. </p>
 
 #### Model :
 - User
@@ -117,49 +117,52 @@ Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pa
 - Poin Pelanggaran
 
 #### View :
-1. Landing Page 
-View landing page merupakan tampilan awal dari web asrama SCB, view ini menampilkan kata selamat datang, logo SCB, serta contact person dan pilihan untuk login.
+<a>
+ 
+ **1. Landing Page** <br> 
+ View landing page merupakan tampilan awal dari web asrama SCB, view ini menampilkan kata selamat datang, logo SCB, serta contact person dan pilihan untuk login. 
 
-2. Login Page
+**2. Login Page** <br>
 View login page menampilkan format yang harus diisi oleh pengguna (siswa dan guru pembina) yaitu ID Pengguna dan kata sandi.
 
-3. View untuk Setiap Model  (siswa) 
-+ Catatan baik dan buruk 
+**3. View untuk Setiap Model (siswa)** 
++ **Catatan baik dan buruk** <br>
 View catatan baik dan buruk akan menampilkan identitas dari siswa, serta riwayat atau catatan baik dan buruk siswa tempo hari. Selain itu, view akan menampilkan halaman untuk menambahkan catatan yang berisi form yang harus diisi oleh siswa apabila ingin menambahkan catatannya yaitu hari/tanggal, jam, jenis amalan, jenis kegiatan serta deskripsinya. 
 
-+ Absensi sholat
++ **Absensi sholat** <br>
 View absensi sholat menampilkan identitas dari siswa dan riwayat absensi sholat dari waktu yang sebelumnya berupa tabel yang berisi tanggal, waktu, dan waktu sholat (subuh, dzuhur, dll).  
 
-+ Catatan Amalan Yaumiyah
++ **Catatan Amalan Yaumiyah** <br>
 View catatan amalan yaumiyah di sisi pengguna siswa akan menampilkan identitas dari siswa dan tabel riwayat catatan amalannya, view saat menambah catatan amalan menampilkan tabel yang berisi jenis amalan, kondisi yang dapat dipilih siswa berupa radio button ya atau tidak, jumlah, serta keterangan. 
 
-+ Hafalan Qur’an dan Hadist
++ **Hafalan Qur’an dan Hadist** <br>
 View hafalan Al-Qur’an dan hadits di sisi pengguna siswa akan menampilkan identitas dari siswa dan tabel riwayat hafalannya, serta menampilkan pilihan untuk mencetak riwayat hafalan siswa tersebut. 
 
-+ Poin pelanggaran dan kebaikan
++ **Poin pelanggaran dan kebaikan** <br>
 View poin pelanggaran dan kebaikan di sisi pengguna siswa akan menampilkan identitas dari siswa serta 2 tabel yang berisi riwayat poin pelanggaran dan riwayat poin kebaikan dari siswa tersebut.
 
-4. View untuk setiap model (guru)
-* Catatan baik dan buruk 
+**4. View untuk setiap model (guru)**
+* **Catatan baik dan buruk**  <br>
 View catatan baik dan buruk akan menampilkan form berisi nama dan kelas siswa, sehingga guru dapat melihat riwayat catatan kebaikan dan keburukan dari siswa tersebut berupa 2 tabel yang dibedakan menjadi catatan kebaikan dan catatan keburukan yang berisi tanggal, jenis kebaikan/keburukan, keterangan, serta aksi yang memungkinkan guru untuk menyunting atau menghapus catatan siswa.  
 
-* Absensi sholat
+* **Absensi sholat** <br>
 View absensi sholat dari sisi pengguna guru menampilkan form yang berisi jenis sholat berupa dropdown dan pilihan pencatatan absensi sholat dengan manual atau dengan QR scan. Pada view pencatatan absensi secara manual akan menampilkan form yang berisi jenis sholat, kelas, dan nama serta menampilkan tabel yang berisi absensi sholat 10 siswa terbaru pada saat itu. 
 
-* Catatan Amalan Yaumiyah
+* **Catatan Amalan Yaumiyah** <br>
 View amalan yaumiah di sisi pengguna guru menampilkan form berisi nama dan kelas siswa, sehingga guru dapat melihat riwayat catatan amalannya berupa tabel yang disertai aksi dimana guru bisa menyunting atau menghapus amalan siswa. 
 
-* Hafalan Qur’an dan Hadist
+* **Hafalan Qur’an dan Hadist** <br>
 View amalan yaumiah di sisi pengguna guru menampilkan form berisi nama dan kelas siswa, sehingga guru dapat melihat riwayat hafalan Al-Qur’an dan hadist berupa tabel serta  pilihan untuk menambahkan hafalan. Pada view menambahkan hafalan siswa, berupa form yang berisi Al-Qur’an/Hadist, surat, ayat, jenis hafalan serta nilainya. 
 
-* Poin pelanggaran dan kebaikan
+* **Poin pelanggaran dan kebaikan** <br>
 View poin pelanggaran dan kebaikan di sisi pengguna guru akan menampilkan form berupa nama siswa, selanjutnya guru dapat memilih nama siswa yang akan dicatat, dari view penambahan catatan akan menampilkan form yang berisi jenis poin, hari/tanggal, jumlah poin serta jenis kebaikan/pelanggaran berupa text box. Setelah itu akan muncul tampilan riwayat poin pelanggaran dan kebaikan berupa 2 tabel.
 
 #### Controller :
-Auth Controller
+**Auth Controller** <br>
 Controller yang mengatur autentikasi, seperti login pada web tersebut, sehingga tidak sembarang user bisa mengakses fitur dari web tersebut.
 Controller untuk Setiap Model
 
+</a>
 
 ## Developer
 Nama | NIM 
