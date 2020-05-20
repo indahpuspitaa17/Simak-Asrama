@@ -13,9 +13,7 @@
 </p>
 
 ## Deskripsi Singkat
-<p>
 SIMAK SCB dirancang untuk bisa mengolah semua informasi seputar akademik asrama siswa yang ada secara terintegrasi sehingga data yang tersedia selalu terbarukan secara *realtime*. Dengan adanya SIMAK SCB ini harapannya bisa mempermudah pihak sekolah maupun administrator dalam mengolah data dan menyimpan semua data yang ada.
-</p>
 
 ## Fitur Secara Umum
 ### Biodata
@@ -107,7 +105,7 @@ Contoh: kelas mobil menyediakan antarmuka fungsi untuk menjalankan mobil tersebu
 - Method name overloading.
 
 ## Tipe Design Pengembangan
-Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pattern MVC (Model View Controller) yang dimana sistem pengembangan aplikasi tersebut akan dipecah menjadi tiga bagian, yaitu model (database), view (tampilan/ui) dan yang terakhir controller (interaksi model dan view). Sarana yang digunakan dalam design pattern tersebut adalah framework **Laravel**.
+Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pattern **MVC (*Model View Controller*)** yang dimana sistem pengembangan aplikasi tersebut akan dipecah menjadi tiga bagian, yaitu ***model*** (database), ***view*** (tampilan/ui) dan yang terakhir ***controller*** (interaksi *model* dan *view*). Sarana yang digunakan dalam *design pattern* tersebut adalah *framework* **Laravel**.
 
 #### Model :
 - User
