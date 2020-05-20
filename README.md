@@ -16,6 +16,12 @@
 SIMAK SCB dirancang untuk bisa mengolah semua informasi seputar akademik asrama siswa yang ada secara terintegrasi sehingga data yang tersedia selalu terbarukan secara *realtime*. Dengan adanya SIMAK SCB ini harapannya bisa mempermudah pihak sekolah maupun administrator dalam mengolah data dan menyimpan semua data yang ada.
 
 ## Fitur Secara Umum
+<p align="center">
+<a>
+<img src="https://trello-attachments.s3.amazonaws.com/5e55f57a7218ca8a0ce73082/5ec485c449de81467d9aee58/d14a22e66b0a26801d1a3afad4c9f6bb/SIMAK.png" alt="SIMAK", width=900>
+</a>
+</p>
+
 ### Biodata
 - Biodata berisi identitas dari siswa, identitas berisi nama, tempat, tanggal lahir, NIS, serta nama orang tua.
 - Pembina/guru bisa mengedit biodata dari siswa
@@ -79,6 +85,20 @@ data teknologi-teknologi yang tersedia disana)
 - Siswa dapat melihat record hafalan mereka sendiri. 
 - Siswa dapat melihat record hafalan dalam bentuk pdf.
 
+## Diagram
+<p align="center">
+<a>
+<img src="https://trello-attachments.s3.amazonaws.com/5e55f57a7218ca8a0ce73082/5ec485a09966513c2bd2e549/85f58279890c951bc31a408875daa8a2/ER_Diagram.png" alt="ER Diagram", width=700>
+</a>
+</p>
+
+### Arsitektur Sistem
+<p align="center">
+<a>
+  <img src="https://trello-attachments.s3.amazonaws.com/5e55f57a7218ca8a0ce73082/5ec485cd8d42c626573d7f8b/f5b502cf6ccf1193eb63e64bc0c0e599/Software_Architecture.png" alt="Architecture", width=400>
+</a>
+</p>
+
 ## Konsep *Object Oriented Programming* yang Digunakan
 ### Abstract Class
 - Kelas merupakan deskripsi abstrak informasi dan tingkah laku dari sekumpulan data.
@@ -105,6 +125,12 @@ Contoh: kelas mobil menyediakan antarmuka fungsi untuk menjalankan mobil tersebu
 - Method name overloading.
 
 ## Tipe Design Pengembangan
+<p align="center">
+<a>
+<img src="https://firebirdsql.org/file/documentation/reference_manuals/fbdevgd-en/html/images/fbdevgd30_mvc_001_en.png" alt="MVC", width=400>
+</a>
+</p>
+
 Dalam mengembangkan sistem informasi asrama, kelompok kami menggunakan design pattern **MVC (*Model View Controller*)** yang dimana sistem pengembangan aplikasi tersebut akan dipecah menjadi tiga bagian, yaitu ***model*** (database), ***view*** (tampilan/ui) dan yang terakhir ***controller*** (interaksi *model* dan *view*). Sarana yang digunakan dalam *design pattern* tersebut adalah *framework* **Laravel**.
 
 #### Model :
